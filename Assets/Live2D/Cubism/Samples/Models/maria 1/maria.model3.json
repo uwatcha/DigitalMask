@@ -1,0 +1,31 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "maria.moc3",
+		"Textures": [
+			"maria.8192/texture_00.png",
+			"maria.8192/texture_01.png",
+			"maria.8192/texture_02.png",
+			"maria.8192/texture_03.png",
+			"maria.8192/texture_04.png",
+			"maria.8192/texture_05.png"
+		],
+		"Physics": "maria.physics3.json",
+		"DisplayInfo": "maria.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}

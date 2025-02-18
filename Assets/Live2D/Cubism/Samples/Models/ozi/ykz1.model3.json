@@ -1,0 +1,87 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ykz1.moc3",
+		"Textures": [
+			"textures/texture_00.png"
+		],
+		"Physics": "ykz1.physics3.json",
+		"DisplayInfo": "ykz1.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "angry",
+				"File": "expressions/angry.exp3.json"
+			},
+			{
+				"Name": "happy1",
+				"File": "expressions/happy1.exp3.json"
+			},
+			{
+				"Name": "happy2",
+				"File": "expressions/happy2.exp3.json"
+			},
+			{
+				"Name": "sad",
+				"File": "expressions/sad.exp3.json"
+			},
+			{
+				"Name": "scarOFF",
+				"File": "expressions/scarOFF.exp3.json"
+			},
+			{
+				"Name": "scarON",
+				"File": "expressions/scarON.exp3.json"
+			},
+			{
+				"Name": "surprise",
+				"File": "expressions/surprise.exp3.json"
+			},
+			{
+				"Name": "tabakoOFF",
+				"File": "expressions/tabakoOFF.exp3.json"
+			},
+			{
+				"Name": "tabakoON",
+				"File": "expressions/tabakoON.exp3.json"
+			},
+			{
+				"Name": "trouble",
+				"File": "expressions/trouble.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motion/tabako.motion3.json"
+				},
+				{
+					"File": "motion/tabakoOFF.motion3.json"
+				},
+				{
+					"File": "motion/tabakoON.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeLSmile",
+				"ParamEyeROpen",
+				"ParamEyeRSmile"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthForm",
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

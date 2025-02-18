@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f401bb1c5c52514eba33c0c2ffdc8ff, type: 3}
+  m_Name: midori.expressionList
+  m_EditorClassIdentifier: 
+  CubismExpressionObjects:
+  - {fileID: 11400000, guid: f85adfae51a9f4cf9ad38c55600c12cc, type: 2}
+  - {fileID: 11400000, guid: cf655a3e6b2074dde94a5c587198b3f0, type: 2}
+  - {fileID: 11400000, guid: b0e9463f646da44b1930040e4e327eec, type: 2}
+  - {fileID: 11400000, guid: b068230847a0b4aaab58f33567500646, type: 2}
+  - {fileID: 11400000, guid: f85adfae51a9f4cf9ad38c55600c12cc, type: 2}
+  - {fileID: 11400000, guid: f85adfae51a9f4cf9ad38c55600c12cc, type: 2}
+  - {fileID: 11400000, guid: f85adfae51a9f4cf9ad38c55600c12cc, type: 2}
+  - {fileID: 11400000, guid: f85adfae51a9f4cf9ad38c55600c12cc, type: 2}
+  - {fileID: 11400000, guid: f85adfae51a9f4cf9ad38c55600c12cc, type: 2}
+  - {fileID: 11400000, guid: f85adfae51a9f4cf9ad38c55600c12cc, type: 2}
+  - {fileID: 11400000, guid: f08cdd4cc076e4c73a8e80e366675f8a, type: 2}
+  - {fileID: 11400000, guid: 986dfbbd3e37f46d584b1cbe82696ee7, type: 2}
+  - {fileID: 11400000, guid: 888f45bca6e604a989284e29c56a3981, type: 2}
+  - {fileID: 11400000, guid: 34e757b5cff8440b1b0329f24bda4d3f, type: 2}
+  - {fileID: 11400000, guid: f08cdd4cc076e4c73a8e80e366675f8a, type: 2}
+  - {fileID: 11400000, guid: f08cdd4cc076e4c73a8e80e366675f8a, type: 2}
+  - {fileID: 11400000, guid: f08cdd4cc076e4c73a8e80e366675f8a, type: 2}
+  - {fileID: 11400000, guid: f08cdd4cc076e4c73a8e80e366675f8a, type: 2}
+  - {fileID: 11400000, guid: f08cdd4cc076e4c73a8e80e366675f8a, type: 2}
+  - {fileID: 11400000, guid: f08cdd4cc076e4c73a8e80e366675f8a, type: 2}
+  - {fileID: 11400000, guid: 8be7b7cc4722345cf9e5b0b8e65396f1, type: 2}
+  - {fileID: 11400000, guid: 46f968a1c5c054fc09b37bbc139cbf06, type: 2}
+  - {fileID: 11400000, guid: 0ea0b6cf02abb4f1e84ef9de5630288e, type: 2}
+  - {fileID: 11400000, guid: 8bd96ff38f7804d19937af18afa46f6a, type: 2}
+  - {fileID: 11400000, guid: 8be7b7cc4722345cf9e5b0b8e65396f1, type: 2}
+  - {fileID: 11400000, guid: 8be7b7cc4722345cf9e5b0b8e65396f1, type: 2}
+  - {fileID: 11400000, guid: 8be7b7cc4722345cf9e5b0b8e65396f1, type: 2}
+  - {fileID: 11400000, guid: 8be7b7cc4722345cf9e5b0b8e65396f1, type: 2}
+  - {fileID: 11400000, guid: 8be7b7cc4722345cf9e5b0b8e65396f1, type: 2}
+  - {fileID: 11400000, guid: 8be7b7cc4722345cf9e5b0b8e65396f1, type: 2}
+  - {fileID: 11400000, guid: a40fd63b7e4eb46e6a7c1f56a750dc56, type: 2}
+  - {fileID: 11400000, guid: a890f406dac894caba3d20a686bd81b2, type: 2}
+  - {fileID: 11400000, guid: 94d4e6427bf7d453ab91a7b266054961, type: 2}
+  - {fileID: 11400000, guid: ea6402627068b4b04bbaec2c519abd39, type: 2}
+  - {fileID: 11400000, guid: a40fd63b7e4eb46e6a7c1f56a750dc56, type: 2}
+  - {fileID: 11400000, guid: a40fd63b7e4eb46e6a7c1f56a750dc56, type: 2}
+  - {fileID: 11400000, guid: a40fd63b7e4eb46e6a7c1f56a750dc56, type: 2}
+  - {fileID: 11400000, guid: a40fd63b7e4eb46e6a7c1f56a750dc56, type: 2}
+  - {fileID: 11400000, guid: a40fd63b7e4eb46e6a7c1f56a750dc56, type: 2}
+  - {fileID: 11400000, guid: a40fd63b7e4eb46e6a7c1f56a750dc56, type: 2}
+  - {fileID: 11400000, guid: 4a2e7f7ad9d9f468f8baf29e173043ba, type: 2}
+  - {fileID: 11400000, guid: f8399fbd2b93a4a49b1168f4f58fa6ff, type: 2}
+  - {fileID: 11400000, guid: ffee94db5656d49a5bf697675a839cae, type: 2}
+  - {fileID: 11400000, guid: 6d96951c6cac84d528425dda7d00464e, type: 2}
+  - {fileID: 11400000, guid: 4a2e7f7ad9d9f468f8baf29e173043ba, type: 2}
+  - {fileID: 11400000, guid: 4a2e7f7ad9d9f468f8baf29e173043ba, type: 2}
+  - {fileID: 11400000, guid: 4a2e7f7ad9d9f468f8baf29e173043ba, type: 2}
+  - {fileID: 11400000, guid: 4a2e7f7ad9d9f468f8baf29e173043ba, type: 2}
+  - {fileID: 11400000, guid: 4a2e7f7ad9d9f468f8baf29e173043ba, type: 2}
+  - {fileID: 11400000, guid: 4a2e7f7ad9d9f468f8baf29e173043ba, type: 2}

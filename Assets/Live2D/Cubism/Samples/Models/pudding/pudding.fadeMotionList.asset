@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403ae2dd693bb1d4b924f6b8d206b053, type: 3}
+  m_Name: pudding.fadeMotionList
+  m_EditorClassIdentifier: 
+  MotionInstanceIds: 5a10f8ff4c10f8ff4210f8ff3810f8ff2e10f8ff2410f8ff1210f8ff0810f8ff020bf8ff
+  CubismFadeMotionObjects:
+  - {fileID: 11400000, guid: 8c3f926de18914be6a8a35f37711915b, type: 2}
+  - {fileID: 11400000, guid: 355213e28a7de4b8ba3b6988a5b7515f, type: 2}
+  - {fileID: 11400000, guid: c72c0ce18a2384088bcdd28e647de3f4, type: 2}
+  - {fileID: 11400000, guid: ef4f60c70cc354cc79442a3cf4d455ab, type: 2}
+  - {fileID: 11400000, guid: 0e455a0d7135144fe93448255161c1dd, type: 2}
+  - {fileID: 11400000, guid: 3de3bc4d99c034161ae1b6e94514b6ab, type: 2}
+  - {fileID: 11400000, guid: 4e16d9c6adf4a41f09ec92f4a0e1a771, type: 2}
+  - {fileID: 11400000, guid: a8edd434d39e44f4e9f0329cb91d21d6, type: 2}
+  - {fileID: 11400000, guid: 5b8c34b7f3d03456abd3b7c98c5937be, type: 2}

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f401bb1c5c52514eba33c0c2ffdc8ff, type: 3}
+  m_Name: yakuza.expressionList
+  m_EditorClassIdentifier: 
+  CubismExpressionObjects:
+  - {fileID: 11400000, guid: 65ec9346f991a41fba6add26aace7735, type: 2}
+  - {fileID: 11400000, guid: 29b9288535b824efda597e7ba72c0203, type: 2}
+  - {fileID: 11400000, guid: 2451ad2f2c1d1498ea3743b15aeb6629, type: 2}
+  - {fileID: 11400000, guid: a2d189bdec9664100bde2b0f42802ad9, type: 2}
+  - {fileID: 11400000, guid: 65ec9346f991a41fba6add26aace7735, type: 2}
+  - {fileID: 11400000, guid: 65ec9346f991a41fba6add26aace7735, type: 2}
+  - {fileID: 11400000, guid: 65ec9346f991a41fba6add26aace7735, type: 2}
+  - {fileID: 11400000, guid: 65ec9346f991a41fba6add26aace7735, type: 2}
+  - {fileID: 11400000, guid: 65ec9346f991a41fba6add26aace7735, type: 2}
+  - {fileID: 11400000, guid: 65ec9346f991a41fba6add26aace7735, type: 2}
+  - {fileID: 11400000, guid: eb88bd35322a44c0b959162f164ad7b7, type: 2}
+  - {fileID: 11400000, guid: 881da8edf1a4449199e4b0fce77231f1, type: 2}
+  - {fileID: 11400000, guid: 87a1a6e99753548bca34a6ccebe54f98, type: 2}
+  - {fileID: 11400000, guid: e4beb0ed48826405d9a2f80ffa91d0d3, type: 2}
+  - {fileID: 11400000, guid: eb88bd35322a44c0b959162f164ad7b7, type: 2}
+  - {fileID: 11400000, guid: eb88bd35322a44c0b959162f164ad7b7, type: 2}
+  - {fileID: 11400000, guid: eb88bd35322a44c0b959162f164ad7b7, type: 2}
+  - {fileID: 11400000, guid: eb88bd35322a44c0b959162f164ad7b7, type: 2}
+  - {fileID: 11400000, guid: eb88bd35322a44c0b959162f164ad7b7, type: 2}
+  - {fileID: 11400000, guid: eb88bd35322a44c0b959162f164ad7b7, type: 2}
+  - {fileID: 11400000, guid: 012fce6fee5c443f296f91f92c906ba0, type: 2}
+  - {fileID: 11400000, guid: 168e2cdd4311f43cf99a0bd2ce3a4117, type: 2}
+  - {fileID: 11400000, guid: ecaf1d19368ab44f3a07e17230bdc656, type: 2}
+  - {fileID: 11400000, guid: 2c5007b22ef9f4f1cb1c4cc12c295836, type: 2}
+  - {fileID: 11400000, guid: 012fce6fee5c443f296f91f92c906ba0, type: 2}
+  - {fileID: 11400000, guid: 012fce6fee5c443f296f91f92c906ba0, type: 2}
+  - {fileID: 11400000, guid: 012fce6fee5c443f296f91f92c906ba0, type: 2}
+  - {fileID: 11400000, guid: 012fce6fee5c443f296f91f92c906ba0, type: 2}
+  - {fileID: 11400000, guid: 012fce6fee5c443f296f91f92c906ba0, type: 2}
+  - {fileID: 11400000, guid: 012fce6fee5c443f296f91f92c906ba0, type: 2}
+  - {fileID: 11400000, guid: 5bb9a96d065f84c8aa77ba93c89ead61, type: 2}
+  - {fileID: 11400000, guid: 103fbe2605e754b4a83bee2d74d56f1d, type: 2}
+  - {fileID: 11400000, guid: c2eefa5e6a8cd4dbdb27ffc4a5675258, type: 2}
+  - {fileID: 11400000, guid: 7c2d875e0a6d44a6ca1a1a3d44f0a3d6, type: 2}
+  - {fileID: 11400000, guid: 5bb9a96d065f84c8aa77ba93c89ead61, type: 2}
+  - {fileID: 11400000, guid: 5bb9a96d065f84c8aa77ba93c89ead61, type: 2}
+  - {fileID: 11400000, guid: 5bb9a96d065f84c8aa77ba93c89ead61, type: 2}
+  - {fileID: 11400000, guid: 5bb9a96d065f84c8aa77ba93c89ead61, type: 2}
+  - {fileID: 11400000, guid: 5bb9a96d065f84c8aa77ba93c89ead61, type: 2}
+  - {fileID: 11400000, guid: 5bb9a96d065f84c8aa77ba93c89ead61, type: 2}
+  - {fileID: 11400000, guid: 7c93b248bb17c4920b0666127bd071d1, type: 2}
+  - {fileID: 11400000, guid: f8355f3ab84a2438b99395dfc064a1f0, type: 2}
+  - {fileID: 11400000, guid: 5945995c336304e8ab72560f26095b0d, type: 2}
+  - {fileID: 11400000, guid: 1a9e779c2d0b8432ba23e47c70e46bf4, type: 2}
+  - {fileID: 11400000, guid: 7c93b248bb17c4920b0666127bd071d1, type: 2}
+  - {fileID: 11400000, guid: 7c93b248bb17c4920b0666127bd071d1, type: 2}
+  - {fileID: 11400000, guid: 7c93b248bb17c4920b0666127bd071d1, type: 2}
+  - {fileID: 11400000, guid: 7c93b248bb17c4920b0666127bd071d1, type: 2}
+  - {fileID: 11400000, guid: 7c93b248bb17c4920b0666127bd071d1, type: 2}
+  - {fileID: 11400000, guid: 7c93b248bb17c4920b0666127bd071d1, type: 2}

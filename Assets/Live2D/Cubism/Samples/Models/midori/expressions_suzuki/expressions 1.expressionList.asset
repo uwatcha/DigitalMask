@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f401bb1c5c52514eba33c0c2ffdc8ff, type: 3}
+  m_Name: expressions 1.expressionList
+  m_EditorClassIdentifier: 
+  CubismExpressionObjects:
+  - {fileID: 11400000, guid: 4ae6d3cfe1b30455c8c2cbab5c426e15, type: 2}
+  - {fileID: 11400000, guid: 0a198c882caaa48e3b048995e796412a, type: 2}
+  - {fileID: 11400000, guid: 865ee0d06feb04f1c94933a2f2e658b8, type: 2}
+  - {fileID: 11400000, guid: 465a79e51a2d6478ab84ac05a43a6ad0, type: 2}
+  - {fileID: 11400000, guid: d143ae86ef9a549edae43425de25027e, type: 2}
+  - {fileID: 11400000, guid: d07f32b1a80744bf5925336000acd47a, type: 2}
+  - {fileID: 11400000, guid: b91ed0d705654498e82754db892cac1b, type: 2}
+  - {fileID: 11400000, guid: 8282f14130b3b4297ab65e7517b712c3, type: 2}
+  - {fileID: 11400000, guid: 786a4da3cee7a41d485e88b8f50d31b1, type: 2}

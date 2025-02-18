@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f401bb1c5c52514eba33c0c2ffdc8ff, type: 3}
+  m_Name: haru.expressionList
+  m_EditorClassIdentifier: 
+  CubismExpressionObjects:
+  - {fileID: 11400000, guid: 3bf6079ac3bd84a878f64579e9ddf49d, type: 2}
+  - {fileID: 11400000, guid: bd183a9960e9d4ac6b39266658be8cdc, type: 2}
+  - {fileID: 11400000, guid: 7dfe73afca90e4bceb678c9b407b2b90, type: 2}
+  - {fileID: 11400000, guid: 8c625b732dea544c890cec786707a002, type: 2}
+  - {fileID: 11400000, guid: 3bf6079ac3bd84a878f64579e9ddf49d, type: 2}
+  - {fileID: 11400000, guid: 3bf6079ac3bd84a878f64579e9ddf49d, type: 2}
+  - {fileID: 11400000, guid: 3bf6079ac3bd84a878f64579e9ddf49d, type: 2}
+  - {fileID: 11400000, guid: 3bf6079ac3bd84a878f64579e9ddf49d, type: 2}
+  - {fileID: 11400000, guid: 3bf6079ac3bd84a878f64579e9ddf49d, type: 2}
+  - {fileID: 11400000, guid: 3bf6079ac3bd84a878f64579e9ddf49d, type: 2}
+  - {fileID: 11400000, guid: 2df9e97539cf4415294ee155b0804958, type: 2}
+  - {fileID: 11400000, guid: 3ff8d907778c646e2b43101a64670acd, type: 2}
+  - {fileID: 11400000, guid: a16649913e998485587e206c84f82059, type: 2}
+  - {fileID: 11400000, guid: 696e5c7cedcef4beca8a9e1b7087cd00, type: 2}
+  - {fileID: 11400000, guid: 2df9e97539cf4415294ee155b0804958, type: 2}
+  - {fileID: 11400000, guid: 2df9e97539cf4415294ee155b0804958, type: 2}
+  - {fileID: 11400000, guid: 2df9e97539cf4415294ee155b0804958, type: 2}
+  - {fileID: 11400000, guid: 2df9e97539cf4415294ee155b0804958, type: 2}
+  - {fileID: 11400000, guid: 2df9e97539cf4415294ee155b0804958, type: 2}
+  - {fileID: 11400000, guid: 2df9e97539cf4415294ee155b0804958, type: 2}
+  - {fileID: 11400000, guid: 8fb7f6c1d43e141f5a72fe867cf75d6a, type: 2}
+  - {fileID: 11400000, guid: 23ffbf739c53d49e6ae3b736ef2b1aa7, type: 2}
+  - {fileID: 11400000, guid: 5ce3c72d1a80c4a61943ce2e88d42b12, type: 2}
+  - {fileID: 11400000, guid: 85c9171683b9547ac94df65f9fc2df5d, type: 2}
+  - {fileID: 11400000, guid: 8fb7f6c1d43e141f5a72fe867cf75d6a, type: 2}
+  - {fileID: 11400000, guid: 8fb7f6c1d43e141f5a72fe867cf75d6a, type: 2}
+  - {fileID: 11400000, guid: 8fb7f6c1d43e141f5a72fe867cf75d6a, type: 2}
+  - {fileID: 11400000, guid: 8fb7f6c1d43e141f5a72fe867cf75d6a, type: 2}
+  - {fileID: 11400000, guid: 8fb7f6c1d43e141f5a72fe867cf75d6a, type: 2}
+  - {fileID: 11400000, guid: 8fb7f6c1d43e141f5a72fe867cf75d6a, type: 2}
+  - {fileID: 11400000, guid: 4b0dccf0efaab47be8bd16afedb8dead, type: 2}
+  - {fileID: 11400000, guid: cac1159024dc549049fcc71604a703cd, type: 2}
+  - {fileID: 11400000, guid: 290de6d95c4104f7c80730012e598c92, type: 2}
+  - {fileID: 11400000, guid: 42e30144baa5d4ffa9959ae8b3041b35, type: 2}
+  - {fileID: 11400000, guid: 4b0dccf0efaab47be8bd16afedb8dead, type: 2}
+  - {fileID: 11400000, guid: 4b0dccf0efaab47be8bd16afedb8dead, type: 2}
+  - {fileID: 11400000, guid: 4b0dccf0efaab47be8bd16afedb8dead, type: 2}
+  - {fileID: 11400000, guid: 4b0dccf0efaab47be8bd16afedb8dead, type: 2}
+  - {fileID: 11400000, guid: 4b0dccf0efaab47be8bd16afedb8dead, type: 2}
+  - {fileID: 11400000, guid: 4b0dccf0efaab47be8bd16afedb8dead, type: 2}
+  - {fileID: 11400000, guid: 895ed5ab98af140b78becf4e036468cf, type: 2}
+  - {fileID: 11400000, guid: 9f4b8107657b04c448e5c5f9375e7b71, type: 2}
+  - {fileID: 11400000, guid: 1429555cde8a74af3bb79a1ef252b174, type: 2}
+  - {fileID: 11400000, guid: e940c290d24b54ff4a63ea90c6858003, type: 2}
+  - {fileID: 11400000, guid: 895ed5ab98af140b78becf4e036468cf, type: 2}
+  - {fileID: 11400000, guid: 895ed5ab98af140b78becf4e036468cf, type: 2}
+  - {fileID: 11400000, guid: 895ed5ab98af140b78becf4e036468cf, type: 2}
+  - {fileID: 11400000, guid: 895ed5ab98af140b78becf4e036468cf, type: 2}
+  - {fileID: 11400000, guid: 895ed5ab98af140b78becf4e036468cf, type: 2}
+  - {fileID: 11400000, guid: 895ed5ab98af140b78becf4e036468cf, type: 2}

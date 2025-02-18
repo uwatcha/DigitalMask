@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f401bb1c5c52514eba33c0c2ffdc8ff, type: 3}
+  m_Name: midori_vts.expressionList
+  m_EditorClassIdentifier: 
+  CubismExpressionObjects:
+  - {fileID: 11400000, guid: 25bad064466324df8b75ada3b4a9eab9, type: 2}
+  - {fileID: 11400000, guid: f2ce7ca959fea49e183e096d53ded4e5, type: 2}
+  - {fileID: 11400000, guid: a007bf04bd79f4591b384e21ae1bf51d, type: 2}
+  - {fileID: 11400000, guid: 8a99ac999f979478f99ad81398e6e14a, type: 2}
+  - {fileID: 11400000, guid: 88176f3d0d9f545398438a078af05f2e, type: 2}
+  - {fileID: 11400000, guid: 90bb04dfaae0d4fa7ad6708a1f6f0e8d, type: 2}
+  - {fileID: 11400000, guid: 9452449cc0a8a4c4a95bb564e4a78d4c, type: 2}
+  - {fileID: 11400000, guid: 240c277343c0242abb8cb113cf7a417b, type: 2}
+  - {fileID: 11400000, guid: 2788a0ff2ab554f4e87076153d9cb3dd, type: 2}

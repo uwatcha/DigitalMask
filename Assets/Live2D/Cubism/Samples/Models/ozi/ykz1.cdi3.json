@@ -1,0 +1,310 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "PARAM_YUGE_01",
+			"GroupId": "ParamGroup3",
+			"Name": "煙"
+		},
+		{
+			"Id": "PARAM_YUGE_02",
+			"GroupId": "ParamGroup3",
+			"Name": "煙"
+		},
+		{
+			"Id": "PARAM_YUGE_03",
+			"GroupId": "ParamGroup3",
+			"Name": "煙 口"
+		},
+		{
+			"Id": "PARAM_YUGE_04",
+			"GroupId": "ParamGroup3",
+			"Name": "煙 口"
+		},
+		{
+			"Id": "PARAM_EFFECT",
+			"GroupId": "ParamGroup3",
+			"Name": "煙草ONOFF"
+		},
+		{
+			"Id": "PARAM_EFFECT2",
+			"GroupId": "ParamGroup3",
+			"Name": "火"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup3",
+			"Name": "腕の動き"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeBall1",
+			"GroupId": "ParamGroup",
+			"Name": "瞳揺れ"
+		},
+		{
+			"Id": "ParamEyeBall2",
+			"GroupId": "ParamGroup",
+			"Name": "瞳光揺れ"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup2",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "ParamGroup2",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup2",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "ParamGroup2",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup2",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "指"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "口変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口開閉"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "傷"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "髪揺れ　前"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "煙草"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "目"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "眉毛"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "フォルダー 1"
+		},
+		{
+			"Id": "Part24",
+			"Name": "パーツ26"
+		},
+		{
+			"Id": "Part29",
+			"Name": "XY"
+		},
+		{
+			"Id": "Part26",
+			"Name": "煙草の煙"
+		},
+		{
+			"Id": "Part25",
+			"Name": "吐き出す煙"
+		},
+		{
+			"Id": "Part3",
+			"Name": "腕先"
+		},
+		{
+			"Id": "Part8",
+			"Name": "フォルダー 4"
+		},
+		{
+			"Id": "Part2",
+			"Name": "フォルダー 28"
+		},
+		{
+			"Id": "Part23",
+			"Name": "口内"
+		},
+		{
+			"Id": "Part30",
+			"Name": "右目"
+		},
+		{
+			"Id": "Part9",
+			"Name": "前髪"
+		},
+		{
+			"Id": "Part10",
+			"Name": "顔"
+		},
+		{
+			"Id": "Part20",
+			"Name": "耳"
+		},
+		{
+			"Id": "Part12",
+			"Name": "フォルダー 20"
+		},
+		{
+			"Id": "Part19",
+			"Name": "鼻"
+		},
+		{
+			"Id": "Part22",
+			"Name": "口"
+		},
+		{
+			"Id": "Part13",
+			"Name": "フォルダー 11"
+		},
+		{
+			"Id": "Part18",
+			"Name": "フォルダー 3"
+		},
+		{
+			"Id": "Part11",
+			"Name": "下唇"
+		},
+		{
+			"Id": "Part4",
+			"Name": "開口パーツ"
+		},
+		{
+			"Id": "Part14",
+			"Name": "フォルダー 6"
+		},
+		{
+			"Id": "Part15",
+			"Name": "フォルダー 8"
+		},
+		{
+			"Id": "Part16",
+			"Name": "フォルダー 9"
+		},
+		{
+			"Id": "Part17",
+			"Name": "瞼"
+		},
+		{
+			"Id": "Part5",
+			"Name": "歯上"
+		},
+		{
+			"Id": "Part6",
+			"Name": "歯下"
+		},
+		{
+			"Id": "Part7",
+			"Name": "口内"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"PARAM_YUGE_01",
+			"PARAM_YUGE_02"
+		],
+		[
+			"PARAM_YUGE_03",
+			"PARAM_YUGE_04"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		]
+	]
+}
