@@ -50,13 +50,13 @@ public class Move : MonoBehaviour
         GameObject cube = GameObject.Find("Cube"); //Playerっていうオブジェクトを探す
         Samplescript = cube.GetComponent<SampleUser>(); //付いているスクリプトを取得
 
-        if (Samplescript.state_avator == 1)
+        if (/*Samplescript.state_avator == 1*/false) //キャラを選択後、画面に対してキャラが90度回転するので、一旦回転を止める
         {
             transform.Rotate(new Vector3(0, 0, +90));
             transform.position = new Vector3(px, 1, 0);
             now_state = 1;
         }
-        else if (Samplescript.state_avator == 2)
+        else if (/*Samplescript.state_avator == 2*/false)
         {
             transform.Rotate(new Vector3(0, 0, -90));
             transform.position = new Vector3(-px, 1, 0);
