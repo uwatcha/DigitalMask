@@ -22,6 +22,26 @@ public class TransExULipsync : MonoBehaviour
     private float T = 0f;
     float Timescale = 10f;
 
+    void Update()
+    {
+        if(Input.GetKey(KeyCode.H)){
+            M5_new_status = 0;
+        }
+        else if (Input.GetKey(KeyCode.I))
+        {
+            M5_new_status = 10;
+        }
+        else if (Input.GetKey(KeyCode.J))
+        {
+            M5_new_status = 20;
+        }
+        else if (Input.GetKey(KeyCode.G))
+        {
+            M5_new_status = 30;
+        }
+        Debug.Log($"status: {M5_new_status}");
+    }
+
     public void OnLipSyncUpdate(LipSyncInfo info)
     {
         Debug.LogFormat(
@@ -42,11 +62,12 @@ public class TransExULipsync : MonoBehaviour
         SampleUser Samplescript; //呼ぶスクリプトにあだなつける
         GameObject cube = GameObject.Find("Cube"); //Playerっていうオブジェクトを探す
         Samplescript = cube.GetComponent<SampleUser>(); //付いているスクリプトを取得
-        M5_new_status = Samplescript.status;
+        // M5_new_status = Samplescript.status;
         
 
         //Almost No VOL
         if (info.rawVolume < 0.09) {
+            //M5_new_status = 20;
             expression = 0 + (int)(M5_new_status / 10) * 10;
             old_status = "-";
             expressionscript.CurrentExpressionIndex = expression;
@@ -56,6 +77,7 @@ public class TransExULipsync : MonoBehaviour
         //        else if (new_status != old_status && M5_new_status % 10 == 1)
         else if (new_status != old_status)
         {
+            //M5_new_status = 10;
             if (new_status == "-")
             {
                 expression = 0 + (int)(M5_new_status / 10) * 10;
