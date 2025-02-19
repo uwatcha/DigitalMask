@@ -218,7 +218,7 @@ MonoBehaviour:
       time: 0.433
       value: 1
       inSlope: -12.315804
-      outSlope: -12.243602
+      outSlope: -12.243603
       tangentMode: 0
       weightedMode: 0
       inWeight: 0

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: exp_01.exp3
   m_EditorClassIdentifier: 
   Type: Live2D Expression
-  FadeInTime: 0.3
-  FadeOutTime: 0.3
+  FadeInTime: 0.5
+  FadeOutTime: 0.5
   Parameters:
   - Id: ParamCheek
     Value: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
     Value: 0
     Blend: 1
   - Id: ParamMouthUp
-    Value: 0.1
+    Value: 0
     Blend: 1
   - Id: ParamMouthDown
     Value: 0

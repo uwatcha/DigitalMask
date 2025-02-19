@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: momis.exp3
   m_EditorClassIdentifier: 
   Type: Live2D Expression
-  FadeInTime: 0.3
-  FadeOutTime: 0.3
+  FadeInTime: 1
+  FadeOutTime: 1
   Parameters:
-  - Id: ParamMouthForm
-    Value: 1
+  - Id: Param7
+    Value: 10
     Blend: 1

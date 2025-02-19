@@ -13,11 +13,47 @@ MonoBehaviour:
   m_Name: happy2.exp3
   m_EditorClassIdentifier: 
   Type: Live2D Expression
-  FadeInTime: 0.3
-  FadeOutTime: 0.3
+  FadeInTime: 1
+  FadeOutTime: 1
   Parameters:
+  - Id: ParamEyeLOpen
+    Value: 0
+    Blend: 1
+  - Id: ParamEyeLSmile
+    Value: 1
+    Blend: 1
+  - Id: ParamEyeROpen
+    Value: 0
+    Blend: 1
+  - Id: ParamEyeRSmile
+    Value: 1
+    Blend: 1
+  - Id: ParamBrowLY
+    Value: 0
+    Blend: 1
+  - Id: ParamBrowRY
+    Value: 0
+    Blend: 1
+  - Id: ParamBrowLX
+    Value: 0
+    Blend: 1
+  - Id: ParamBrowRX
+    Value: 0
+    Blend: 1
+  - Id: ParamBrowLAngle
+    Value: -1
+    Blend: 1
+  - Id: ParamBrowRAngle
+    Value: -1
+    Blend: 1
+  - Id: ParamBrowLForm
+    Value: 0
+    Blend: 1
+  - Id: ParamBrowRForm
+    Value: 0
+    Blend: 1
   - Id: ParamMouthForm
-    Value: 2
+    Value: 1
     Blend: 1
   - Id: ParamMouthOpenY
     Value: 0

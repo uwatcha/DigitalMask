@@ -13,12 +13,9 @@ MonoBehaviour:
   m_Name: maegami02.exp3
   m_EditorClassIdentifier: 
   Type: Live2D Expression
-  FadeInTime: 0.3
-  FadeOutTime: 0.3
+  FadeInTime: 1
+  FadeOutTime: 1
   Parameters:
-  - Id: ParamMouthForm
-    Value: -0.25
-    Blend: 1
-  - Id: ParamMouthOpenY
-    Value: 0
+  - Id: Param6
+    Value: 10
     Blend: 1

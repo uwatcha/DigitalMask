@@ -13,12 +13,9 @@ MonoBehaviour:
   m_Name: kirakira.exp3
   m_EditorClassIdentifier: 
   Type: Live2D Expression
-  FadeInTime: 0.3
-  FadeOutTime: 0.3
+  FadeInTime: 1
+  FadeOutTime: 1
   Parameters:
-  - Id: komaru
-    Value: 0.5
-    Blend: 1
   - Id: kirakira
-    Value: -1
+    Value: 1
     Blend: 1

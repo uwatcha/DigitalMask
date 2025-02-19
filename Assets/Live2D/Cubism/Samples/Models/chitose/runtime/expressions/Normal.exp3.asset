@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Normal.exp3
   m_EditorClassIdentifier: 
   Type: Live2D Expression
-  FadeInTime: 0.3
-  FadeOutTime: 0.3
+  FadeInTime: 1
+  FadeOutTime: 1
   Parameters:
   - Id: PARAM_EYE_L_OPEN
     Value: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
     Value: 0
     Blend: 1
   - Id: PARAM_MOUTH_FORM
-    Value: -0.25
+    Value: 0
     Blend: 1
   - Id: PARAM_MOUTH_OPEN_Y
     Value: 0

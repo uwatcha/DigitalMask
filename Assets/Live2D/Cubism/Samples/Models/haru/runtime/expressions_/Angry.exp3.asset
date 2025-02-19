@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: Angry.exp3
   m_EditorClassIdentifier: 
   Type: Live2D Expression
-  FadeInTime: 0.3
-  FadeOutTime: 0.3
+  FadeInTime: 1
+  FadeOutTime: 1
   Parameters:
   - Id: PARAM_EYE_L_OPEN
-    Value: 1
+    Value: 0
     Blend: 1
   - Id: PARAM_EYE_L_SMILE
     Value: 0
     Blend: 1
   - Id: PARAM_EYE_R_OPEN
-    Value: 1
+    Value: 0
     Blend: 1
   - Id: PARAM_EYE_R_SMILE
     Value: 0
     Blend: 1
   - Id: PARAM_EYE_FORM
-    Value: 0
+    Value: -1
     Blend: 1
   - Id: PARAM_EYE_BALL_FORM
     Value: 0
@@ -47,22 +47,22 @@ MonoBehaviour:
     Value: 0
     Blend: 1
   - Id: PARAM_BROW_L_ANGLE
-    Value: 0
+    Value: -0.5
     Blend: 1
   - Id: PARAM_BROW_R_ANGLE
-    Value: 0
+    Value: -0.5
     Blend: 1
   - Id: PARAM_BROW_L_FORM
-    Value: 0
+    Value: -0.5
     Blend: 1
   - Id: PARAM_BROW_R_FORM
-    Value: 0
+    Value: -0.5
     Blend: 1
   - Id: PARAM_MOUTH_FORM
-    Value: -0.74
+    Value: -2
     Blend: 1
   - Id: PARAM_MOUTH_OPEN_Y
-    Value: 0.64
+    Value: 0
     Blend: 1
   - Id: PARAM_TERE
     Value: 0

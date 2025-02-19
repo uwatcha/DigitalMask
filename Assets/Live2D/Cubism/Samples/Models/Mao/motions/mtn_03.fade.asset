@@ -269,7 +269,7 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 2.667
       value: 5
-      inSlope: 55.95007
+      inSlope: 55.950066
       outSlope: 56.168766
       tangentMode: 0
       weightedMode: 0

@@ -16,15 +16,6 @@ MonoBehaviour:
   FadeInTime: 0.3
   FadeOutTime: 0.3
   Parameters:
-  - Id: ParamMouthForm
+  - Id: ParamNamida
     Value: 1
-    Blend: 1
-  - Id: ParamMouthOpenY
-    Value: 0
-    Blend: 1
-  - Id: ParamEyeROpen
-    Value: 0
-    Blend: 1
-  - Id: ParamCheek1
-    Value: 0.4
     Blend: 1

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: exp_11.exp3
   m_EditorClassIdentifier: 
   Type: Live2D Expression
-  FadeInTime: 0.3
-  FadeOutTime: 0.3
+  FadeInTime: 0.5
+  FadeOutTime: 0.5
   Parameters:
   - Id: ParamCheek
     Value: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     Value: 0
     Blend: 1
   - Id: ParamEyeLForm
-    Value: 0
+    Value: 1
     Blend: 1
   - Id: ParamEyeROpen
     Value: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
     Value: 0
     Blend: 1
   - Id: ParamEyeRForm
-    Value: 0
+    Value: 1
     Blend: 1
   - Id: ParamEyeBallX
     Value: 0
@@ -74,29 +74,29 @@ MonoBehaviour:
     Value: 0
     Blend: 1
   - Id: ParamMouthA
-    Value: 1
+    Value: 0
     Blend: 1
   - Id: ParamMouthI
     Value: 0
     Blend: 1
   - Id: ParamMouthU
-    Value: 0.5
+    Value: 0
     Blend: 1
   - Id: ParamMouthE
     Value: 0
     Blend: 1
   - Id: ParamMouthO
-    Value: 0.066
+    Value: 0
     Blend: 1
   - Id: ParamMouthUp
-    Value: 0
+    Value: -1
     Blend: 1
   - Id: ParamMouthDown
     Value: 0
     Blend: 1
   - Id: ParamMouthAngry
-    Value: 0
+    Value: 1
     Blend: 1
   - Id: ParamMouthAngryLine
-    Value: 0
+    Value: 1
     Blend: 1

@@ -1386,7 +1386,7 @@ MonoBehaviour:
       time: 1.7
       value: 1.2
       inSlope: Infinity
-      outSlope: 36
+      outSlope: 36.000004
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
@@ -1394,7 +1394,7 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 2.5
       value: 30
-      inSlope: 36
+      inSlope: 36.000004
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
@@ -1404,7 +1404,7 @@ MonoBehaviour:
       time: 2.533
       value: 1.2
       inSlope: Infinity
-      outSlope: 36
+      outSlope: 36.000004
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
@@ -1412,7 +1412,7 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 3.333
       value: 30
-      inSlope: 36
+      inSlope: 36.000004
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
