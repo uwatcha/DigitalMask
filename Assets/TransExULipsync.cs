@@ -47,6 +47,7 @@ public class TransExULipsync : MonoBehaviour
 
         //Almost No VOL
         if (info.rawVolume < 0.09) {
+            M5_new_status = 20;
             expression = 0 + (int)(M5_new_status / 10) * 10;
             old_status = "-";
             expressionscript.CurrentExpressionIndex = expression;
@@ -56,6 +57,7 @@ public class TransExULipsync : MonoBehaviour
         //        else if (new_status != old_status && M5_new_status % 10 == 1)
         else if (new_status != old_status)
         {
+            M5_new_status = 10;
             if (new_status == "-")
             {
                 expression = 0 + (int)(M5_new_status / 10) * 10;

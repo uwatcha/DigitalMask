@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MidoriUlipScene.unity
     guid: ce9a62fc5ed4e4a9984f13fabc644450
+  - enabled: 1
+    path: Assets/Scenes/HaruUlipScene.unity
+    guid: 24bfaae075820413da1d82c56ca1c567
+  - enabled: 1
+    path: Assets/Scenes/YakuzaUlipScene.unity
+    guid: d8a62b66ca17d41db9fe093be7c8a167
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 822695e3a2fe74300a49de7614c2a639, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
