@@ -257,7 +257,7 @@ namespace Live2D.Cubism.Framework.Expression
                     item.Parameter = playingExpression.Destinations[i];
                     item.AdditiveValue = DefaultAdditiveValue;
                     item.MultiplyValue = DefaultMultiplyValue;
-                    item.OverwriteValue = item.Parameter.Value;
+                    // item.OverwriteValue = item.Parameter.Value;
                     _expressionParameterValues.Add(item);
                 }
 
