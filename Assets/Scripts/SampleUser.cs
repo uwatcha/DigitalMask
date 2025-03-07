@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 #if UNITY_EDITOR_OSX || UNITY_IOS
-using UnityCoreBluetooth;
+// using UnityCoreBluetooth;
 using System.Collections;
 using System.Collections.Generic;
 using Live2D.Cubism.Framework.Expression;
@@ -10,79 +10,79 @@ using Live2D.Cubism.Framework.Expression;
 public class SampleUser : MonoBehaviour
 {
 
-    private CoreBluetoothManager manager;
-    private CoreBluetoothPeripheral savedPeripheral;
+    // private CoreBluetoothManager manager;
+    // private CoreBluetoothPeripheral savedPeripheral;
     private string currentState;  // state を保存するメンバ変数
-    private CoreBluetoothCharacteristic characteristic;
+    // private CoreBluetoothCharacteristic characteristic;
     public GameObject score_object = null; // Textオブジェクト
     private int counter;
     public int neutral;
     public int smile;
 
     // Use this for initialization
-    void Start()
-    {
+    // void Start()
+    // {
 
-        DontDestroyOnLoad(this.gameObject);//オブジェクトを消去しない.
-        manager = CoreBluetoothManager.Shared;
+    //     DontDestroyOnLoad(this.gameObject);//オブジェクトを消去しない.
+    //     manager = CoreBluetoothManager.Shared;
 
-        manager.OnUpdateState((string state) =>
-        {
-            currentState = state;
-            Debug.Log("state: " + state);
-            if (state != "poweredOn") return;
-            manager.StartScan();
+    //     manager.OnUpdateState((string state) =>
+    //     {
+    //         currentState = state;
+    //         Debug.Log("state: " + state);
+    //         if (state != "poweredOn") return;
+    //         manager.StartScan();
             
-        });
+    //     });
 
-        manager.OnDiscoverPeripheral((CoreBluetoothPeripheral peripheral) =>
-        {
-            if (peripheral.name != "")
-                Debug.Log("discover peripheral name: " + peripheral.name); 
-            if ((peripheral.name != "Daydream controller") && (peripheral.name != "M5Stack") && (peripheral.name != "M5StickC")) return;
+    //     manager.OnDiscoverPeripheral((CoreBluetoothPeripheral peripheral) =>
+    //     {
+    //         if (peripheral.name != "")
+    //             Debug.Log("discover peripheral name: " + peripheral.name); 
+    //         if ((peripheral.name != "Daydream controller") && (peripheral.name != "M5Stack") && (peripheral.name != "M5StickC")) return;
 
-            savedPeripheral = peripheral;
-            manager.StopScan();
-            //manager.ConnectToPeripheral(peripheral);
-            manager.ConnectToPeripheral(savedPeripheral);
-        });
+    //         savedPeripheral = peripheral;
+    //         manager.StopScan();
+    //         //manager.ConnectToPeripheral(peripheral);
+    //         manager.ConnectToPeripheral(savedPeripheral);
+    //     });
 
-        manager.OnConnectPeripheral((CoreBluetoothPeripheral peripheral) =>
-        {
-            Debug.Log("connected peripheral name: " + peripheral.name);
-            peripheral.discoverServices();
-        });
+    //     manager.OnConnectPeripheral((CoreBluetoothPeripheral peripheral) =>
+    //     {
+    //         Debug.Log("connected peripheral name: " + peripheral.name);
+    //         peripheral.discoverServices();
+    //     });
 
-        manager.OnDiscoverService((CoreBluetoothService service) =>
-        {
-            Debug.Log("discover service uuid: " + service.uuid);
-            if (service.uuid != "FE55") return;
-            service.discoverCharacteristics();
-        });
+    //     manager.OnDiscoverService((CoreBluetoothService service) =>
+    //     {
+    //         Debug.Log("discover service uuid: " + service.uuid);
+    //         if (service.uuid != "FE55") return;
+    //         service.discoverCharacteristics();
+    //     });
 
 
-        manager.OnDiscoverCharacteristic((CoreBluetoothCharacteristic characteristic) =>
-        {
-            this.characteristic = characteristic;
-            string uuid = characteristic.Uuid;
-            string[] usage = characteristic.Propertis;
-            Debug.Log("discover characteristic uuid: " + uuid + ", usage: " + usage);
-            for (int i = 0; i < usage.Length; i++)
-            {
-                Debug.Log("discover characteristic uuid: " + uuid + ", usage: " + usage[i]);
-                if (usage[i] == "notify")
-                    characteristic.SetNotifyValue(true);
-            }
-        });
+    //     manager.OnDiscoverCharacteristic((CoreBluetoothCharacteristic characteristic) =>
+    //     {
+    //         this.characteristic = characteristic;
+    //         string uuid = characteristic.Uuid;
+    //         string[] usage = characteristic.Propertis;
+    //         Debug.Log("discover characteristic uuid: " + uuid + ", usage: " + usage);
+    //         for (int i = 0; i < usage.Length; i++)
+    //         {
+    //             Debug.Log("discover characteristic uuid: " + uuid + ", usage: " + usage[i]);
+    //             if (usage[i] == "notify")
+    //                 characteristic.SetNotifyValue(true);
+    //         }
+    //     });
 
-        manager.OnUpdateValue((CoreBluetoothCharacteristic characteristic, byte[] data) =>
-        {
-            this.value = data;
-            this.flag = true;
-        });
+    //     manager.OnUpdateValue((CoreBluetoothCharacteristic characteristic, byte[] data) =>
+    //     {
+    //         this.value = data;
+    //         this.flag = true;
+    //     });
 
-        manager.Start();
-    }
+    //     manager.Start();
+    // }
 
     private bool flag = false;
     private byte[] value = new byte[20];
@@ -131,16 +131,16 @@ public class SampleUser : MonoBehaviour
         //ReconnectToDevice();
     }
 
-    void OnDestroy()
-    {
-        manager.Stop();
-    }
+    // void OnDestroy()
+    // {
+    //     manager.Stop();
+    // }
 
     
 
     public void Write()
     {
-        characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
+        // characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
         counter+= 10;
         Debug.Log(counter);
     }
@@ -150,7 +150,7 @@ public class SampleUser : MonoBehaviour
     public void SoundDown()
     {
         counter = 0;
-        characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
+        // characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
         
         Debug.Log(counter);
     }
@@ -158,58 +158,58 @@ public class SampleUser : MonoBehaviour
     public void SoundUp()
     {
         counter = 1;
-        characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
+        // characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
         Debug.Log(counter);
     }
 
     public void SensorDown()
     {
         counter = 5;
-        characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
+        // characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
         Debug.Log(counter);
     }
 
     public void SensorUp()
     {
         counter = 6;
-        characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
+        // characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
         Debug.Log(counter);
     }
 
     public void SoundZero()
     {
         counter = 4;
-        characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
+        // characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
         Debug.Log(counter);
     }
 
     public void SensorMax()
     {
         counter = 3;
-        characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
+        // characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
         Debug.Log(counter);
     }
 
     public void SensorMin()
     {
         counter = 2;
-        characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
+        // characteristic.Write(System.Text.Encoding.UTF8.GetBytes($"{counter}"));
         Debug.Log(counter);
     }
 
-    public void ReconnectToDevice()
-    {
-        Debug.Log("ReconnectToDevice called with state: " + currentState);
+    // public void ReconnectToDevice()
+    // {
+    //     Debug.Log("ReconnectToDevice called with state: " + currentState);
 
-        if (savedPeripheral != null)
-        {
-            // 保存されたデバイス情報を使用して再接続、機能していません
-            manager.ConnectToPeripheral(savedPeripheral);
-        }
-        else
-        {
-            Debug.LogWarning("No saved device information available for reconnection.");
-        }
-    }
+    //     if (savedPeripheral != null)
+    //     {
+    //         // 保存されたデバイス情報を使用して再接続、機能していません
+    //         manager.ConnectToPeripheral(savedPeripheral);
+    //     }
+    //     else
+    //     {
+    //         Debug.LogWarning("No saved device information available for reconnection.");
+    //     }
+    // }
 }
 #endif

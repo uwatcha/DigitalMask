@@ -79,7 +79,7 @@ public class Move : MonoBehaviour
         GameObject cube = GameObject.Find("Cube"); //Playerっていうオブジェクトを探す
         Samplescript = cube.GetComponent<SampleUser>(); //付いているスクリプトを取得
         
-        Samplescript.state_avator = now_state;
+        // Samplescript.state_avator = now_state;
     }
 
 
