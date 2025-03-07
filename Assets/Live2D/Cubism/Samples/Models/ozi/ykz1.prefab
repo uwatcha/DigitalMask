@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 100
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8608604472939386886
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -292,6 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 71
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &4867792633783295522
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -417,6 +419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 75
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &497223990871867405
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -738,6 +741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 68
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &4090746133076233283
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -876,6 +880,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _childDrawableRenderers:
+  - {fileID: 0}
+  _childParts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
@@ -1065,6 +1077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 48
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7325723207815324684
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1190,6 +1203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 17
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &24047290264827402
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1315,6 +1329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 66
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &879841033312276697
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1440,6 +1455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 55
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &6104342750410492119
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1565,6 +1581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 32
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8317420805034662131
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1812,6 +1829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 24
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2970343503446149195
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1950,6 +1968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _childDrawableRenderers: []
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2016,6 +2035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 53
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2376261300471662140
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2141,6 +2161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 29
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2410244962829797767
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2266,6 +2287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 41
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &6472921207245713740
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2452,6 +2474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 23
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2565935098266821215
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2577,6 +2600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 39
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &4776230720810017448
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2702,6 +2726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 96
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &1385088937819204268
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2827,6 +2852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 37
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &6061168398258727712
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2952,6 +2978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 36
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8387836373538736821
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3077,6 +3104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 30
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &4271462271801801732
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3202,6 +3230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 93
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2859612920239192316
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3349,6 +3378,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3415,6 +3445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 88
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7158566452377904544
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3540,6 +3571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 26
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8098785833165321545
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3665,6 +3697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 2
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7607125908404429981
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3816,6 +3849,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3882,6 +3916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 42
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &6139241912605655606
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4007,6 +4042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 8
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7760174139184806777
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4132,6 +4168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 4
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &1584767136241874841
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4379,6 +4416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 89
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7132064959967975677
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4519,6 +4557,7 @@ MonoBehaviour:
   _childDrawableRenderers:
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4585,6 +4624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 31
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8460938596436847751
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4710,6 +4750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 56
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &3949549793826481964
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4835,6 +4876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 19
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &6200114458991555305
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5092,6 +5134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 73
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2767217252722037976
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5217,6 +5260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 67
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5068037446773955514
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5342,6 +5386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 12
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &3927084585081048715
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5467,6 +5512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 98
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2072552513914725449
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5653,6 +5699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 13
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &4144557810217546606
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5795,6 +5842,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5875,6 +5923,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _childDrawableRenderers:
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _childParts:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -6006,6 +6059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 97
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5751865751393461548
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6131,6 +6185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 61
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7292588422966819414
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6256,6 +6311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 40
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2260233592451411631
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6396,6 +6452,7 @@ MonoBehaviour:
   _childDrawableRenderers:
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6584,6 +6641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 21
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8490669163212271998
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6709,6 +6767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 81
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &966894299719671403
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6834,6 +6893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 80
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &1704290316299109305
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6959,6 +7019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 1
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &1010267099103390670
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7084,6 +7145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 50
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5141068193848883569
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7224,6 +7286,7 @@ MonoBehaviour:
   _childDrawableRenderers:
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7305,6 +7368,7 @@ MonoBehaviour:
   _childDrawableRenderers:
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7432,6 +7496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 54
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &818641821039350719
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7557,6 +7622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 10
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &441946277485029860
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7745,6 +7811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 70
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7143252457235955052
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7870,6 +7937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 58
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &6683448502659871073
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8056,6 +8124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 28
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &1694827554847444529
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8196,6 +8265,9 @@ MonoBehaviour:
   _childDrawableRenderers:
   - {fileID: 0}
   - {fileID: 0}
+  _childParts:
+  - {fileID: 0}
+  - {fileID: 0}
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8262,6 +8334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 90
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5749107376078058022
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8480,6 +8553,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8546,6 +8620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 43
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &4032889490412082712
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8671,6 +8746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 46
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2476880344407451876
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8857,6 +8933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 9
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &6645660101459792431
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9043,6 +9120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 15
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5767383482893376616
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9168,6 +9246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 82
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5334992688534018948
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9306,6 +9385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _childDrawableRenderers: []
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9372,6 +9452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 22
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5789637819790318806
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9497,6 +9578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 87
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &1910729005010349209
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9701,6 +9783,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9767,6 +9850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 25
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &470735638892655250
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9966,6 +10050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 94
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &6926451717784004957
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10091,6 +10176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 5
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &419571081626795277
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10216,6 +10302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 59
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2545852467425279622
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10341,6 +10428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 83
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5905866528154212755
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10466,6 +10554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 91
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7978839753143990229
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10591,6 +10680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 99
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5756966671737841800
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10734,6 +10824,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10861,6 +10952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 6
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &354901051892682255
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10986,6 +11078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 95
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &3386407015241883901
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11111,6 +11204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 57
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7354252235962279278
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11249,6 +11343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _childDrawableRenderers: []
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11315,6 +11410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 0
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &3672494771105761103
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11440,6 +11536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 7
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5863088310156616475
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11639,6 +11736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 33
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &1988634768448826409
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11764,6 +11862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 51
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &3533862145476154463
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11889,6 +11988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 78
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2037466103255735029
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12014,6 +12114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 60
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &1199354878843426490
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12139,6 +12240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 27
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7076659037498711285
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12264,6 +12366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 18
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &9153450504699111470
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12389,6 +12492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 52
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5427830479119242796
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12514,6 +12618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 65
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5464673259240787790
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12664,6 +12769,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  _childParts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -12806,6 +12915,10 @@ MonoBehaviour:
   _childDrawableRenderers:
   - {fileID: 0}
   - {fileID: 0}
+  _childParts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -12872,6 +12985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 85
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7445657427790210695
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13071,6 +13185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 11
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2897258117259039262
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13196,6 +13311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 14
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &4343359426668687150
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13321,6 +13437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 44
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &3412404270517960941
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13507,6 +13624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 86
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7863555954348730768
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13706,6 +13824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _childDrawableRenderers: []
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -13788,6 +13907,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -13875,6 +13995,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -13941,6 +14062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 76
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5500918584539889549
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14066,6 +14188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 69
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &988903627280670240
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14191,6 +14314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 49
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &4309259648917416770
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14316,6 +14440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 72
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2989228879258361400
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14441,6 +14566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 45
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &4186061689506096228
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14581,6 +14707,7 @@ MonoBehaviour:
   _childDrawableRenderers:
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -14647,6 +14774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 16
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &2749126586309418363
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14772,6 +14900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 77
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &3613282977511303823
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14897,6 +15026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 92
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7938493382197720343
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15022,6 +15152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 35
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8768906260914734964
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15208,6 +15339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 20
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &769036475662785198
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15333,6 +15465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 47
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8509630366997135450
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15546,6 +15679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _childDrawableRenderers:
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -15612,6 +15746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 3
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8053023909111174634
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15737,6 +15872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 62
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8584850492944462192
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15875,6 +16011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _childDrawableRenderers: []
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -15956,6 +16093,7 @@ MonoBehaviour:
   _childDrawableRenderers:
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -16037,6 +16175,7 @@ MonoBehaviour:
   _childDrawableRenderers:
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -16164,6 +16303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 84
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8710742259028100551
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16350,6 +16490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 38
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &37645339909815224
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16491,6 +16632,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  _childParts: []
   _isOverwrittenPartMultiplyColors: 0
   _isOverwrittenPartScreenColors: 0
   _multiplyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -16557,6 +16699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 63
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8210590562813900315
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16682,6 +16825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 79
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &8424564353821581371
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16774,6 +16918,7 @@ GameObject:
   - component: {fileID: 4088070356356006149}
   - component: {fileID: 4074643822296260056}
   - component: {fileID: 3105534672903717019}
+  - component: {fileID: 6638610619429727070}
   - component: {fileID: 1159308414991070363}
   - component: {fileID: 1678095440148349315}
   - component: {fileID: 6055950792416637982}
@@ -16899,6 +17044,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BlendMode: 2
   MouthOpening: 1
+--- !u!114 &6638610619429727070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8934178058977867423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e091e930f84e24f408843e771116ef4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1159308414991070363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16962,6 +17119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExpressionsList: {fileID: 11400000, guid: 46f135d3ee66944b091692f0eb086e50, type: 2}
+  UseLegacyBlendCalculation: 0
   CurrentExpressionIndex: -1
 --- !u!95 &6350033588256980371
 Animator:
@@ -17190,6 +17348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 64
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &699061919882213181
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17315,6 +17474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 34
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &5635478190948175102
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17440,6 +17600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unmanagedIndex: 74
+  _screenColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!33 &7832800928837271375
 MeshFilter:
   m_ObjectHideFlags: 0

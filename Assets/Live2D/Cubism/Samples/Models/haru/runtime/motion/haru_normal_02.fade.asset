@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: haru_normal_02.fade
   m_EditorClassIdentifier: 
   MotionName: Assets/Live2D/Cubism/Samples/Models/haru/runtime/motion/haru_normal_02.motion3.json
+  ModelFadeInTime: -1
+  ModelFadeOutTime: -1
   FadeInTime: 1
   FadeOutTime: 1
   ParameterIds:

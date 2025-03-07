@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: haru_normal_05.fade
   m_EditorClassIdentifier: 
   MotionName: Assets/haru/runtime/motion/haru_normal_05.motion3.json
+  ModelFadeInTime: -1
+  ModelFadeOutTime: -1
   FadeInTime: 1
   FadeOutTime: 1
   ParameterIds:

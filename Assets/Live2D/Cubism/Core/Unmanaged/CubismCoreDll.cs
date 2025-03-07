@@ -56,9 +56,13 @@ namespace Live2D.Cubism.Core.Unmanaged
         /// </sumamry>
         public const int MocVersion_40 = 3;
         /// <sumamry>
-        /// .moc3 file version 4.2.00 -
+        /// .moc3 file version 4.2.00 - 4.2.04
         /// </sumamry>
         public const int MocVersion_42 = 4;
+        /// <sumamry>
+        /// .moc3 file version 5.0.00 -
+        /// </sumamry>
+        public const int MocVersion_50 = 5;
 
 
         /// <sumamry>
@@ -138,7 +142,12 @@ namespace Live2D.Cubism.Core.Unmanaged
         /// Sets log handler.
         /// </summary>
         [DllImport(DllName, EntryPoint = "csmSetLogFunction")]
-        public static extern void SetLogFunction(uint handler);
+        public static extern void SetLogFunction(IntPtr handler);
+        /// <summary>
+        /// Gets log handler.
+        /// </summary>
+        [DllImport(DllName, EntryPoint = "csmGetLogFunction")]
+        public static extern IntPtr GetLogFunction();
         /// <summary>
         /// Gets Size of model instance (in bytes).
         /// </summary>
