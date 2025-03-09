@@ -71,6 +71,7 @@ public class TransExULipsync : MonoBehaviour
             expression = 0 + (int)(M5_new_status / 10) * 10;
             old_status = "-";
             expressionscript.CurrentExpressionIndex = expression;
+            // TODO: expressionの数値は変わっていた。expressionscriptの中で問題が起こって、ヤクザだけ表情が変わらない
         }
 
 
