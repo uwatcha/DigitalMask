@@ -66,7 +66,7 @@ public class TransExULipsync : MonoBehaviour
         
 
         //Almost No VOL
-        if (info.rawVolume < 0.09) {
+        if (info.rawVolume < 0.07) {
             //M5_new_status = 20;
             expression = 0 + (int)(M5_new_status / 10) * 10;
             old_status = "-";
