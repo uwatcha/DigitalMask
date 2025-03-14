@@ -29,7 +29,7 @@ public class TransExULipsync : MonoBehaviour
 
     void Start()
     {
-        micSensitivityText.text = Math.Round(micSensitivity, 2).ToString("F2");
+        UpdateSensitivityText();
     }
     void Update()
     {
@@ -57,13 +57,27 @@ public class TransExULipsync : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.O))
         {
             micSensitivity += 0.01;
-            micSensitivityText.text = Math.Round(micSensitivity, 2).ToString("F2");
+            UpdateSensitivityText();
         }
         else if (Input.GetKeyDown(KeyCode.N))
         {
             micSensitivity -= 0.01;
-            micSensitivityText.text = Math.Round(micSensitivity, 2).ToString("F2");
+            UpdateSensitivityText();
         }
+        else if (Input.GetKeyDown(KeyCode.E))
+        {
+            micSensitivity += 0.001;
+            UpdateSensitivityText();
+        }
+        else if (Input.GetKeyDown(KeyCode.F))
+        {
+            micSensitivity -= 0.001;
+            UpdateSensitivityText();
+        }
+    }
+    private void UpdateSensitivityText()
+    {
+        micSensitivityText.text = Math.Round(micSensitivity, 3).ToString("F3");
     }
 
     public void OnLipSyncUpdate(LipSyncInfo info)
