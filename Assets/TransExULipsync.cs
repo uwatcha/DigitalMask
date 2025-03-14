@@ -3,8 +3,11 @@ using uLipSync;
 
 using System;
 using UnityEngine.UI;
+using TMPro;
+
 #if UNITY_EDITOR_OSX || UNITY_IOS || UNITY_STANDALONE_WIN
 // using UnityCoreBluetooth;
+
 using Live2D.Cubism.Framework.Expression;
 using Live2D.Cubism.Framework.MouthMovement;
 
@@ -12,6 +15,8 @@ using Live2D.Cubism.Framework.MouthMovement;
 public class TransExULipsync : MonoBehaviour
 {
     [SerializeField] string modelname;
+    [SerializeField] private double micSensitivity = 0.07;
+    [SerializeField] private TextMeshProUGUI micSensitivityText;
     private string old_status = "-";
     private string new_status = "-";
 
@@ -22,6 +27,10 @@ public class TransExULipsync : MonoBehaviour
     private float T = 0f;
     float Timescale = 10f;
 
+    void Start()
+    {
+        micSensitivityText.text = Math.Round(micSensitivity, 2).ToString("F2");
+    }
     void Update()
     {
         if(Input.GetKey(KeyCode.H)){
@@ -40,6 +49,21 @@ public class TransExULipsync : MonoBehaviour
             M5_new_status = 30;
         }
         Debug.Log($"status: {M5_new_status}");
+        ChangeMicSensitivity();
+    }
+
+    private void ChangeMicSensitivity()
+    {
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            micSensitivity += 0.01;
+            micSensitivityText.text = Math.Round(micSensitivity, 2).ToString("F2");
+        }
+        else if (Input.GetKeyDown(KeyCode.N))
+        {
+            micSensitivity -= 0.01;
+            micSensitivityText.text = Math.Round(micSensitivity, 2).ToString("F2");
+        }
     }
 
     public void OnLipSyncUpdate(LipSyncInfo info)
@@ -66,7 +90,7 @@ public class TransExULipsync : MonoBehaviour
         
 
         //Almost No VOL
-        if (info.rawVolume < 0.07) {
+        if (info.rawVolume < micSensitivity) {
             //M5_new_status = 20;
             expression = 0 + (int)(M5_new_status / 10) * 10;
             old_status = "-";
