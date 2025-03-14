@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
-#if UNITY_EDITOR_OSX || UNITY_IOS
+#if UNITY_EDITOR_OSX || UNITY_IOS || UNITY_STANDALONE_WIN
 // using UnityCoreBluetooth;
 using System.Collections;
 using System.Collections.Generic;

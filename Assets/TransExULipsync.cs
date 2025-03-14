@@ -3,12 +3,12 @@ using uLipSync;
 
 using System;
 using UnityEngine.UI;
-#if UNITY_EDITOR_OSX || UNITY_IOS
+#if UNITY_EDITOR_OSX || UNITY_IOS || UNITY_STANDALONE_WIN
 // using UnityCoreBluetooth;
 using Live2D.Cubism.Framework.Expression;
 using Live2D.Cubism.Framework.MouthMovement;
 
-
+//TODO: 上記のような#if によるプラットフォーム指定にWindowsを追加する。
 public class TransExULipsync : MonoBehaviour
 {
     [SerializeField] string modelname;

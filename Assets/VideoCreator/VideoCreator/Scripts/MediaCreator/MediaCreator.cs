@@ -7,7 +7,7 @@ namespace VideoCreator
 {
     public class MediaCreator
     {
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
         [DllImport("__Internal")]
         private static extern void UnityMediaCreator_initAsMovWithNoAudio(string url, string codec, long width, long height, string contentIdentifier);
 
@@ -52,7 +52,7 @@ namespace VideoCreator
         /// <param name="contentIdentifier">Only if you want LivePhotos, please set this. You will need to set the same id when you save the file.</param>
         public static void InitAsMovWithNoAudio(string url, string codec, long width, long height, string contentIdentifier = "")
         {
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
             UnityMediaCreator_initAsMovWithNoAudio(url, codec, width, height, contentIdentifier);
 #else
             Debug.Log("This platform is not supported.");
@@ -71,7 +71,7 @@ namespace VideoCreator
         /// <param name="contentIdentifier">Only if you want LivePhotos, please set this. You will need to set the same id when you save the file.</param>
         public static void InitAsMovWithAudio(string url, string codec, long width, long height, long channel, float samplingRate, string contentIdentifier = "")
         {
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
             UnityMediaCreator_initAsMovWithAudio(url, codec, width, height, channel, samplingRate, contentIdentifier);
 #else
             Debug.Log("This platform is not supported.");
@@ -87,7 +87,7 @@ namespace VideoCreator
         /// <param name="bitDepth">wav file bitDepth</param>
         public static void InitAsWav(string url, long channel, float samplingRate, long bitDepth)
         {
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
             UnityMediaCreator_initAsWav(url, channel, samplingRate, bitDepth);
 #else
             Debug.Log("This platform is not supported.");
@@ -96,7 +96,7 @@ namespace VideoCreator
 
         public static void InitAsHlsWithNoAudio(string url, string codec, long width, long height, long segmentDurationMicroSec)
         {
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
             UnityMediaCreator_initAsHlsWithNoAudio(url, codec, width, height, segmentDurationMicroSec);
 #else
             Debug.Log("This platform is not supported.");
@@ -109,7 +109,7 @@ namespace VideoCreator
         /// <param name="microSec">Start time in the timeline of the source samples. Unit is microseconds.</param>
         public static void Start(long microSec)
         {
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
             UnityMediaCreator_start(microSec);
 #else
             Debug.Log("This platform is not supported.");
@@ -118,7 +118,7 @@ namespace VideoCreator
 
         private static Action<byte[]> onSegmentDataAction;
 
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
         [MonoPInvokeCallback(typeof(UnityMediaCreator_setOnSegmentData_delegate))]
         private static void OnSegmentDataCallback(IntPtr data, long len)
         {
@@ -140,7 +140,7 @@ namespace VideoCreator
         public static void SetOnSegmentDataAction(Action<byte[]> action)
         {
             onSegmentDataAction = action;
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
             UnityMediaCreator_setOnSegmentData(OnSegmentDataCallback);
 #else
             Debug.Log("This platform is not supported.");
@@ -152,7 +152,7 @@ namespace VideoCreator
         /// </summary>
         public static void FinishSync()
         {
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
             UnityMediaCreator_finishSync();
 #else
             Debug.Log("This platform is not supported.");
@@ -164,7 +164,7 @@ namespace VideoCreator
         /// </summary>
         public static bool IsRecording()
         {
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
             return UnityMediaCreator_isRecording();
 #else
             return false;
@@ -178,7 +178,7 @@ namespace VideoCreator
         /// <param name="microSec">Time based on start time</param>
         public static void WriteVideo(Texture texture, long microSec)
         {
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
             UnityMediaCreator_writeVideo(texture.GetNativeTexturePtr(), microSec);
 #else
             Debug.Log("This platform is not supported.");
@@ -192,7 +192,7 @@ namespace VideoCreator
         /// <param name="microSec">Time based on start time</param>
         public static void WriteAudio(float[] pcm, long microSec)
         {
-#if !UNITY_EDITOR && UNITY_IOS
+#if !UNITY_EDITOR && UNITY_IOS || UNITY_STANDALONE_WIN
             UnityMediaCreator_writeAudio(pcm, pcm.Length, microSec);
 #else
             Debug.Log("This platform is not supported.");
