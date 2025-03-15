@@ -14,7 +14,8 @@ using Live2D.Cubism.Framework.MouthMovement;
 //TODO: 上記のような#if によるプラットフォーム指定にWindowsを追加する。
 public class TransExULipsync : MonoBehaviour
 {
-    [SerializeField] string modelname;
+    [SerializeField] private CubismExpressionController avatorCubism;
+    [SerializeField] private SampleUser uLipsyncManager;
     private double micSensitivity = 0.008;
     private string old_status = "-";
     private string new_status = "-";
@@ -43,30 +44,23 @@ public class TransExULipsync : MonoBehaviour
         {
             M5_new_status = 30;
         }
-        Debug.Log($"status: {M5_new_status}");
+        // Debug.Log($"status: {M5_new_status}");
     }
 
     public void OnLipSyncUpdate(LipSyncInfo info)
     {
-        Debug.LogFormat(
-            $"PHENOME: {info.phoneme}, " +
-            $"RAWVOL: {info.rawVolume} " +
-            $"VOL: {info.volume} "
-            );
+        // Debug.LogFormat(
+        //     $"PHENOME: {info.phoneme}, " +
+        //     $"RAWVOL: {info.rawVolume} " +
+        //     $"VOL: {info.volume} "
+        //     );
         
 
         new_status = info.phoneme;
 
 
-        CubismExpressionController expressionscript;
-        GameObject model = GameObject.Find(modelname);
-        expressionscript = model.GetComponent<CubismExpressionController>();
 
-        // Getting M5 Data
-        SampleUser Samplescript; //呼ぶスクリプトにあだなつける
-        GameObject cube = GameObject.Find("Cube"); //Playerっていうオブジェクトを探す
-        Samplescript = cube.GetComponent<SampleUser>(); //付いているスクリプトを取得
-        // M5_new_status = Samplescript.status;
+        // M5_new_status = uLipsyncManager.status;
         
 
         //Almost No VOL
@@ -74,7 +68,7 @@ public class TransExULipsync : MonoBehaviour
             //M5_new_status = 20;
             expression = 0 + (int)(M5_new_status / 10) * 10;
             old_status = "-";
-            expressionscript.CurrentExpressionIndex = expression;
+            avatorCubism.CurrentExpressionIndex = expression;
             // TODO: expressionの数値は変わっていた。expressionscriptの中で問題が起こって、ヤクザだけ表情が変わらない。唇も動かない
         }
 
@@ -103,7 +97,7 @@ public class TransExULipsync : MonoBehaviour
             //Destroy(child.gameObject);
             old_status = new_status;
             //kokodehyoujouhennkou
-            expressionscript.CurrentExpressionIndex = expression;
+            avatorCubism.CurrentExpressionIndex = expression;
 
         }
     }  

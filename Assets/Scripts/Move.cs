@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Move : MonoBehaviour
 {
+    [SerializeField] private SampleUser avator;
     public float moveDistance = 1f;
     public float scaleFactor = 1f;
     private int px;//position.rotate
@@ -46,17 +47,13 @@ public class Move : MonoBehaviour
         px = position_rotate_x;
         fy = position_first_y;
 
-        SampleUser Samplescript; //呼ぶスクリプトにあだなつける
-        GameObject cube = GameObject.Find("Cube"); //Playerっていうオブジェクトを探す
-        Samplescript = cube.GetComponent<SampleUser>(); //付いているスクリプトを取得
-
-        if (/*Samplescript.state_avator == 1*/false) //キャラを選択後、画面に対してキャラが90度回転するので、一旦回転を止める
+        if (/*avator.state_avator == 1*/false) //キャラを選択後、画面に対してキャラが90度回転するので、一旦回転を止める
         {
             transform.Rotate(new Vector3(0, 0, +90));
             transform.position = new Vector3(px, 1, 0);
             now_state = 1;
         }
-        else if (/*Samplescript.state_avator == 2*/false)
+        else if (/*avator.state_avator == 2*/false)
         {
             transform.Rotate(new Vector3(0, 0, -90));
             transform.position = new Vector3(-px, 1, 0);
@@ -74,12 +71,8 @@ public class Move : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        SampleUser Samplescript; //呼ぶスクリプトにあだなつける
-        GameObject cube = GameObject.Find("Cube"); //Playerっていうオブジェクトを探す
-        Samplescript = cube.GetComponent<SampleUser>(); //付いているスクリプトを取得
-        
-        // Samplescript.state_avator = now_state;
+    {        
+        // avator.state_avator = now_state;
     }
 
 

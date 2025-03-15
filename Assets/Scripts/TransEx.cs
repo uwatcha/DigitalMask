@@ -12,6 +12,7 @@ using Live2D.Cubism.Framework.MouthMovement;
 
 public class TransEx : MonoBehaviour
 {
+    [SerializeField] private SampleUser avator;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,33 +26,15 @@ public class TransEx : MonoBehaviour
 
 
 
-    [SerializeField] string modelname;
+    [SerializeField] CubismExpressionController cubismExpressionController;
+    [SerializeField] private CubismMouthController cubismMouthController;
 
     
 
-    // Update is called once per frame
     void Update()
     {
-        SampleUser Samplescript; //呼ぶスクリプトにあだなつける
-        GameObject cube = GameObject.Find("Cube"); //Playerっていうオブジェクトを探す
-        Samplescript = cube.GetComponent<SampleUser>(); //付いているスクリプトを取得
-        new_status = Samplescript.status;
-
-        CubismExpressionController expressionscript;
-        GameObject model = GameObject.Find(modelname);
-        expressionscript = model.GetComponent<CubismExpressionController>();
-
-        // Progress time.
-        
-        CubismMouthController mouthscript;
-        mouthscript = model.GetComponent<CubismMouthController>();
-
-
-        //expressionscript.CurrentExpressionIndex = BitConverter.ToInt32(value, 0);
-
-        
-
-
+        new_status = avator.status;
+        //cubismExpressionController.CurrentExpressionIndex = BitConverter.ToInt32(value, 0);
         if (new_status != old_status)
         {
             if (new_status >= 10)
@@ -59,29 +42,29 @@ public class TransEx : MonoBehaviour
 
                 if (new_status == 10)
                 {
-                    expression = Samplescript.neutral;
+                    expression = avator.neutral;
                     //expression = neutral;
                     //T = Mathf.PI / 2f;
-                    //mouthscript.MouthOpening = 0;
+                    //cubismExpressionController.MouthOpening = 0;
                 }
                 else if (new_status == 11)
                 {
                     //T = 0f;
-                    expression = (Samplescript.neutral + 10);
-                    //mouthscript.MouthOpening = 1;
+                    expression = (avator.neutral + 10);
+                    //cubismExpressionController.MouthOpening = 1;
                     //expression = 11;
                 }
                 else if (new_status == 20)
                 {
                     //T = Mathf.PI / 2f;
-                    expression = Samplescript.smile;
-                    //mouthscript.MouthOpening = 0;
+                    expression = avator.smile;
+                    //cubismExpressionController.MouthOpening = 0;
                 }
                 else if (new_status == 21)
                 {
                     //T = 0;
                     //expression = 12;
-                    expression = (Samplescript.smile + 10);
+                    expression = (avator.smile + 10);
 
                 }
                 
@@ -91,7 +74,7 @@ public class TransEx : MonoBehaviour
             //Destroy(child.gameObject);
             old_status = new_status;
             //kokodehyoujouhennkou
-            expressionscript.CurrentExpressionIndex = expression;
+            cubismExpressionController.CurrentExpressionIndex = expression;
             
         }
 
@@ -100,17 +83,17 @@ public class TransEx : MonoBehaviour
         //{
         //    float preT = T;
         //    T += (Time.deltaTime * Timescale);
-        //    mouthscript.MouthOpening += Mathf.Abs(Mathf.Sin(T-preT));
-        //    mouthscript.MouthOpening = Mathf.Clamp(mouthscript.MouthOpening, 0.0f, 1.0f);
-        //    //mouthscript.MouthOpening = Mathf.Abs(Mathf.Sin(1));
+        //    cubismExpressionController.MouthOpening += Mathf.Abs(Mathf.Sin(T-preT));
+        //    cubismExpressionController.MouthOpening = Mathf.Clamp(cubismExpressionController.MouthOpening, 0.0f, 1.0f);
+        //    //cubismExpressionController.MouthOpening = Mathf.Abs(Mathf.Sin(1));
         //}
         //else
         //{
-        //    mouthscript.MouthOpening = 0;
+        //    cubismExpressionController.MouthOpening = 0;
         //    //float preT = T;
         //    //T += (Time.deltaTime * Timescale);
-        //    //mouthscript.MouthOpening -= (Mathf.Sin(-T + preT));
-        //    //mouthscript.MouthOpening = Mathf.Clamp(mouthscript.MouthOpening, 0.0f, 1.0f);
+        //    //cubismExpressionController.MouthOpening -= (Mathf.Sin(-T + preT));
+        //    //cubismExpressionController.MouthOpening = Mathf.Clamp(cubismExpressionController.MouthOpening, 0.0f, 1.0f);
         //}
 
 
