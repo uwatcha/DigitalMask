@@ -15,8 +15,7 @@ using Live2D.Cubism.Framework.MouthMovement;
 public class TransExULipsync : MonoBehaviour
 {
     [SerializeField] string modelname;
-    [SerializeField] private double micSensitivity = 0.07;
-    [SerializeField] private TextMeshProUGUI micSensitivityText;
+    private double micSensitivity = 0.008;
     private string old_status = "-";
     private string new_status = "-";
 
@@ -27,10 +26,6 @@ public class TransExULipsync : MonoBehaviour
     private float T = 0f;
     float Timescale = 10f;
 
-    void Start()
-    {
-        UpdateSensitivityText();
-    }
     void Update()
     {
         if(Input.GetKey(KeyCode.H)){
@@ -49,35 +44,6 @@ public class TransExULipsync : MonoBehaviour
             M5_new_status = 30;
         }
         Debug.Log($"status: {M5_new_status}");
-        ChangeMicSensitivity();
-    }
-
-    private void ChangeMicSensitivity()
-    {
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            micSensitivity += 0.01;
-            UpdateSensitivityText();
-        }
-        else if (Input.GetKeyDown(KeyCode.N))
-        {
-            micSensitivity -= 0.01;
-            UpdateSensitivityText();
-        }
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            micSensitivity += 0.001;
-            UpdateSensitivityText();
-        }
-        else if (Input.GetKeyDown(KeyCode.F))
-        {
-            micSensitivity -= 0.001;
-            UpdateSensitivityText();
-        }
-    }
-    private void UpdateSensitivityText()
-    {
-        micSensitivityText.text = Math.Round(micSensitivity, 3).ToString("F3");
     }
 
     public void OnLipSyncUpdate(LipSyncInfo info)
